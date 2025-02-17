@@ -60,7 +60,7 @@ app.post("/create-account", async (req, res) => {
         },
       });
 
-      const verificationLink = `http://localhost:5173/verify/?token=${token}`;
+      const verificationLink = `https://mynotefontend-new.vercel.app/verify/?token=${token}`;
 
       const mailOptions = {
         from: "gashawkalkidan700@gmail.com",
